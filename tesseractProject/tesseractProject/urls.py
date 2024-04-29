@@ -20,5 +20,6 @@ from tesseractApp.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name='extract_text'),
+    path('base64toText/',base64_to_text)
 
 ]
